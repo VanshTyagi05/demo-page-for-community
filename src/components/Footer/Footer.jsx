@@ -2,13 +2,13 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 export default function Footer() {
   return (
-      <footer className="bg-white border-y">
+      <footer className="bg-neutral-700 border-y">
           <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
               <div className="md:flex md:justify-between">
                   <div className="mb-6 md:mb-0">
                       <Link to="/" className="flex items-center">
                           <img
-                              src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
+                              src="https://images.pexels.com/photos/3280130/pexels-photo-3280130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                               className="mr-3 h-16"
                               alt="Logo"
                           />
@@ -35,7 +35,7 @@ export default function Footer() {
                           <ul className="text-gray-500 font-medium">
                               <li className="mb-4">
                                   <a
-                                      href="https://github.com/hiteshchoudhary"
+                                      href="https://github.com/TEAM-MAKAVAN"
                                       className="hover:underline"
                                       target="_blank"
                                       rel="noreferrer"
@@ -70,9 +70,9 @@ export default function Footer() {
               <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
               <div className="sm:flex sm:items-center sm:justify-between">
                   <span className="text-sm text-gray-500 sm:text-center">
-                      © 2023
+                      © 2024
                       <a href="https://hiteshchoudhary.com/" className="hover:underline">
-                          Vansh Tyagi
+                          TEAM_MAKAVAN
                       </a>
                       . All Rights Reserved.
                   </span>
@@ -121,7 +121,7 @@ export default function Footer() {
                           </svg>
                           <span className="sr-only">Twitter page</span>
                       </Link>
-                      <Link to="#" className="text-gray-500">
+                      <Link to="https://github.com/TEAM-MAKAVAN" className="text-gray-500">
                           <svg
                               className="w-4 h-4"
                               aria-hidden="true"

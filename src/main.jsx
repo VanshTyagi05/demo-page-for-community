@@ -52,7 +52,13 @@ const router=createBrowserRouter(
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  <React.StrictMode >
+    <div className="w-full h-full flex flex-wrap justify-center items-center bg-cover bg-repeat bg-opacity-30"
+      style={{
+        backgroundImage: `url('https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')`,
+      }}
+    >
     <RouterProvider router={router}/>
+    </div>
   </React.StrictMode>,
 )
